@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang= "en">
+
+	<head>
+	
+		<!-- Chloe Gertner, Buisness Website, 12/2/21 -->
+	
+		<meta charset="UTF-8">
+		
+		<title> AJSnakebite Woodworking </title>
+		
+		<link rel="stylesheet" href="WoodNew.css">
+		
+		<!-- Java Script to Read Answers -->
+		<script>
+			function printQuery() {
+			  var query = window.location.search.substring(1);
+			  var vars = query.split("&");
+
+			  for (var i = 0; i < vars.length; i++) {
+				var pair = vars[i].split("=");
+				  document.write(pair[0] + ": " + pair[1] + "<br />");
+			  }
+			}
+		</script>
+		
+	</head>
+	
+	<body>
+	
+		<!-- Nav Bar -->
+
+		<div class="nav">
+		
+			<a href="HomeScreen.html" class="Link"> HOME </a>
+			
+			<a href="AboutWood.html" class="Link "> ABOUT </a>
+			
+			<a href="Contact.html" class="Link"> CONTACT </a>
+			
+			<a href="ProductsScreen.html" class="Link"> PRODUCTS </a>
+			
+			<a href="CustomForm.html" class="Link"> CUSTOM </a>
+			
+			<a href="ORDER.html" class="Link"> ORDER </a>
+		
+		</div>
+		
+		<!-- End Nav Bar, Start "info" -->
+		
+		<div class="info">
+		
+			<h2> AJSNAKEBITE WOODWORKING </h2>
+			
+			<h1 class="Sheader"> THANK YOU </h1>
+			
+			<p class="Spara"> Your request has been successfully sent! </p>
+			
+			<p class="Spara"> Expect a response within 2 - 7 business days with confirmation of your order! </p>
+		
+			<!-- Open "cont" -->
+			
+			<div class="cont">
+				
+				<!-- Open "response" -->
+				
+				<div class="response">
+				
+					<script>
+						printQuery();
+					</script>
+					
+				<!-- Close "response" -->
+				</div>
+				
+			<!-- Close "cont" -->
+			</div>
+
+		<!-- Close "info" -->
+		</div>
+		
+		<footer> Copyright ©2021 AjSnakebiteWoodworking </footer>
+	</body>
+</html>
