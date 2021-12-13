@@ -291,7 +291,9 @@ footer {
 }
 .flimgl {
 	float:left;
+	height: 20px;
 }
 .flimg2 {
 	float: right;
+	height: 20px;
 }
