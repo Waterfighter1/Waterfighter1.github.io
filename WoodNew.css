@@ -289,5 +289,9 @@ footer {
 	border-color: rgba(64, 197, 38, 0);
 	border-style: solid;
 }
-.smed:hover {
+.flimgl {
+	float:left;
+}
+.flimg2 {
+	float: right;
 }
